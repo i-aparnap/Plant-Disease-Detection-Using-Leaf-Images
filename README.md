@@ -11,18 +11,18 @@ The goal of this project is to help farmers and researchers quickly identify pla
 By leveraging **transfer learning** with **MobileNetV2**, the model achieves high accuracy while remaining lightweight and fast enough for real-time use.
 
 ## Project Structure
-plant-disease-detector/
+ Plant-Disease-Detection/
 │
 ├── models/
-│ ├── mobilenetv2_best.h5 # trained CNN model
-│ └── class_indices.npy # mapping between class indices and labels
+│   ├── (empty, will be downloaded via gdown)
 │
-├── gui/
-│ ├── plant_disease_ui.py # main GUI application
-│ └── background.jpg # GUI background image
-│
-├── requirements.txt # Python dependencies
-└── README.md # documentation
+├── plant_disease_ui.py
+├── requirements.txt
+├── background.jpg
+├── PlantVillage_split
+├── README.md
+├── Plant_Disease_Detection.ipynb
+
 
 ##  Model Information
 
