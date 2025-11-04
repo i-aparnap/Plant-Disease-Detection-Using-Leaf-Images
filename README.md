@@ -51,6 +51,13 @@ plant-disease-detector/
 python gui/plant_disease_ui.py
 
 3.Upload a leaf image and view prediction on screen
+## Example Predictions
+| Image                            | Predicted Class            | Confidence |
+| :------------------------------- | :------------------------- | :--------- |
+| `tomato_early_blight.jpg`        | Tomato Early Blight        | 98.4%      |
+| `potato_healthy.jpg`             | Potato Healthy             | 99.1%      |
+| `bell_pepper_bacterial_spot.jpg` | Bell Pepper Bacterial Spot | 96.7%      |
+
 ## Requirements
 tensorflow
 keras
@@ -65,3 +72,12 @@ The dataset used for training (PlantVillage) is not included due to size.
 The model (mobilenetv2_best.h5) and label file (class_indices.npy) are already provided in /models.
 
 Works best with clear leaf images (centered and well-lit).
+## Future Improvements
+
+Deploy as a web or mobile app
+
+Add more plant species
+
+Integrate with real-time camera detection
+
+Optimize for edge devices (Raspberry Pi, Jetson Nano
