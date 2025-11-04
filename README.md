@@ -81,3 +81,26 @@ Add more plant species
 Integrate with real-time camera detection
 
 Optimize for edge devices (Raspberry Pi, Jetson Nano
+## Download Required Files
+Before running the project, download the trained model and dataset from Google Drive using the following commands:
+```bash
+# Download model file
+!gdown --id 1rGaB0ss-58sJrn9XDxmJF94FsXf42MO2 -O models/mobilenetv2_best.h5
+# Download dataset 
+!gdown --id 17U2xGvHzoXXh6OSJqLOWDW2RZePLe9h0 -O PlantVillage_split.zip
+!unzip PlantVillage_split.zip -d ./PlantVillage_split
+# Download class indices
+!gdown --id 1Vql0DsCMsHCD2aO-6NRsDKnZN3Q12x-v -O models/class_indices.npy
+
+
+
+
+
+
+
+
+
+
+
+
+
